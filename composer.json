@@ -1,0 +1,24 @@
+{
+  "name": "task/refactoring",
+  "type": "task-refactoring",
+  "description": "Task - PHP - Refactoring",
+  "authors": [
+    {
+      "name": "Andrei Fits",
+      "email": "andreyfits@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "php": "^8",
+    "phpunit/phpunit": "^9.5"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.5"
+  }
+}
